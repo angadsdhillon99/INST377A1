@@ -39,12 +39,12 @@ body{
     padding: 8px 16px;
     border-radius: 4px;
   }
-  @media only screen and (max-width: 800px) and (min-width: 600px) {
+  @media screen and (min-width: 800px){
     body {
       background-color: lightblue;
     }
   }
-  @media only screen and (max-width: 600px) and (min-width: 400px) {
+  @media screen and (min-width: 600px){
     body {
       background-color: lightcoral;
     }
