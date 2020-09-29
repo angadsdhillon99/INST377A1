@@ -1,4 +1,7 @@
 /*CSS*/
+body{
+  background-color: lightcoral;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -35,4 +38,9 @@
     margin-bottom: 5px;
     padding: 8px 16px;
     border-radius: 4px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
   }
