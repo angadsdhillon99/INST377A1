@@ -1,48 +1,109 @@
 /*CSS*/
+/*Elements*/
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  background-color: lightcoral;
+  color: black;
+  padding: 50px 0;
+  font-weight:10;
+}
+
+h1{
+  text-align: center;
+}
+/*Classes*/
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    max-width: 640px;
-    min-height: 100%;
+  background: Grey;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 640px;
+  min-height: 100%;
 }
 
 .wrapper {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-  }
-  
-  .content {
-    background: #fff;
-    border: 2px dotted rgb(221, 221, 221);
-    flex-grow: 2;
-    flex: 0 0 200px;
-    padding: 10px;
-    overflow-wrap: break-word;
-  }
-  
-  .header {
-    background: rgba(56, 149, 168,0.8);
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    margin-bottom: 5px;
-    padding: 8px 16px;
-    border-radius: 4px;
-  }
-  @media screen and (min-width: 800px){
-    body {
-      background-color: lightblue;
+  background: Grey;
+  color: white;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  background: #fff;
+  border: 2px dotted rgb(221, 221, 221);
+  flex-grow: 2;
+  flex: 0 0 200px;
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+
+.header {
+  background: rgba(56, 149, 168,0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.top{
+  display: flex;
+  flex-direction:row;
+  flex: 1 0 auto;
+  margin-right: 0px;
+}
+
+.top img{
+   justify-content: center;
+   border-style: round;
+   border-radius: 4px;
+   border: solid 1px black;
+}
+.column img
+    {
+      margin-top: 5px;
+      justify-content: center;
+      border-style: round;
+      border-radius: 4px;
+      border: solid 1px black;
     }
+
+.wrapper > .container > div{
+  margin-right: 15px;
+  flex: 0 1 auto;
+}
+
+/*Media Rules */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+  .wrapper >
+   .container > 
+          div{justify-content: center;
+              flex: 1 0 auto;
+              margin-right: 0px;
+          }
+}
+
+@media screen and (max-width: 960px){
+  .wrapper >.container > div{
+      justify-content: space-between;
+      flex: 1 0 auto;
+      margin-right: 0px;
+      flex-direction: row;
+
   }
-  @media screen and (min-width: 600px){
-    body {
-      background-color: lightcoral;
-    }
+}
+
+@media only screen and (min-width : 1000px){
+  .container{justify-content: space-between;
   }
+}
