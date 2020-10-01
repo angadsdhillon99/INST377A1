@@ -1,13 +1,12 @@
 /*CSS*/
 /*Elements*/
-body { 
-  background:lightcoral;
-  font-family: 'Balsamiq Sans', cursive;
-  background-color: aquamarine;
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  background-color: lightcoral;
   color: black;
   padding: 50px 0;
-  font-weight:600;
-}
+  font-weight:10;
 }
 
 h1{
