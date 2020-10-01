@@ -1,5 +1,7 @@
 /*CSS*/
 .container {
+    background: Grey;
+    color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -9,6 +11,8 @@
 }
 
 .wrapper {
+    background: Grey;
+    color: white;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -36,23 +40,24 @@
     padding: 8px 16px;
     border-radius: 4px;
   }
-  
-@media screen and (max-width: 960px){
-    .wrapper > .container > div{
-        justify-content: center;
-        flex: 1 0 auto;
-        margin-right: 15px;
-    }
-}
-@media screen and (max-width: 1000px)
-{
-    .container{
-        justify-content: center;
-    }
 
+h1{text-align: center;}  
+
+@media screen and (max-width: 960px){
+    .wrapper >
+     .container > 
+            div{justify-content: center;
+                flex: 1 0 auto;
+                margin-right: 15px;
+            }
 }
-.wrapper > .container > div{
-    margin-right: 15px;
+@media screen and (max-width: 1000px){
+    .container{justify-content: center;}
+}
+
+.wrapper > 
+    .container > 
+        div{margin-right: 15px;
 }
 .column img
 {
