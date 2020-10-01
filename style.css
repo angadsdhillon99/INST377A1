@@ -61,7 +61,7 @@ h1{text-align: center;}
 }
 .column img
 {
-    padding: 8px 16px;
+    border: 2px dotted rgb(221, 221, 221);
     justify-content: center;
     border-style: round;
     border-radius: 4px;
