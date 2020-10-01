@@ -43,7 +43,8 @@
  .column{
     display: flex;
     flex-direction: row;
-    margin-right: 15px;
+    width: 25%;
+    float: left;
  }
 
 h1{text-align: center;}  
