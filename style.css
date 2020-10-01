@@ -36,10 +36,13 @@
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     padding: 8px 16px;
     border-radius: 4px;
   }
+ .column{
+    display: flex;
+ }
 
 h1{text-align: center;}  
 
@@ -48,7 +51,7 @@ h1{text-align: center;}
      .container > 
             div{justify-content: center;
                 flex: 1 0 auto;
-                margin-right: 15px;
+                margin-right: 0px;
             }
 }
 @media screen and (max-width: 1000px){
@@ -57,7 +60,7 @@ h1{text-align: center;}
 
 .wrapper > 
     .container > 
-        div{margin-right: 15px;
+        div{margin-right: 0px;
 }
 .column img
 {
