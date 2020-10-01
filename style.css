@@ -50,11 +50,10 @@ body {
   margin-right: 15px;
 }
 
+
 h1{text-align: center;}  
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .wrapper >
    .container > 
           div{justify-content: center;
@@ -62,8 +61,8 @@ and (max-device-width : 480px){
               margin-right: 0px;
           }
 }
-@media only screen 
-and (min-width : 1224px){
+
+@media only screen and (min-width : 1224px){
   .container{justify-content: center;}
 }
 
