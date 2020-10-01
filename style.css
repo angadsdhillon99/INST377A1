@@ -49,15 +49,11 @@ body {
   flex-direction: row;
   margin-right: 15px;
 }
-.column{
-  display: flex;
-  flex-direction: row;
-  margin-right: 0px;
-}
+
 
 h1{text-align: center;}  
 
-@media screen and (max-width: 960px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .wrapper >
    .container > 
           div{justify-content: center;
@@ -65,7 +61,8 @@ h1{text-align: center;}
               margin-right: 0px;
           }
 }
-@media screen and (max-width: 1000px){
+
+@media only screen and (min-width : 1224px){
   .container{justify-content: center;}
 }
 
